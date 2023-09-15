@@ -36,9 +36,11 @@ body {
     margin-right: auto;
     margin-top: -25;
   }
- a:visited {
-color: brown;
-}
-a:active {
-  color: black;
-}
+  
+  /* unvisited link */
+  a{
+    color: brown;
+    text-decoration: none;
+  }
+  
+
